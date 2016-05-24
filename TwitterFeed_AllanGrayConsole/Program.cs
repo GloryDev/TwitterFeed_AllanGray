@@ -37,6 +37,7 @@ namespace TwitterFeed_AllanGrayConsole {
       }
       catch (Exception e) {
         Console.WriteLine(e);
+        Console.ReadLine();
       }
     }
   }
